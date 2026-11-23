@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tulika Joshi - first-year BCA student learning C, web development and DevOps.">
+    <link rel="stylesheet" href="style.css">
+    <title>Tulika Joshi | Portfolio</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="#home" class="logo">tulika<span>.</span></a>
+        <div class="nav_links">
+            <a href="#about">about</a>
+            <a href="#skills">skills</a>
+            <a href="#roadmap">roadmap</a>
+            <a href="#project">projects</a>
+            <a href="#contact">contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO / PROFILE CARD -->
+    <header class="hero" id="home">
+        <div class="profile_card">
+            <!-- To use a real photo: delete the 'avatar' div below and add
+                 <img src="your-photo.jpg" alt="Tulika Joshi" class="profileimg"> -->
+            <div class="avatar">TJ</div>
+            <p class="hello">hello, i'm</p>
+            <h2>tulika joshi</h2>
+            <p class="role">BCA Student &bull; Aspiring Developer</p>
+
+            <div class="bio">
+                <p>
+                    I am a BCA student passionate about exploring the world of technology.
+                    Currently learning and building my way into web development, with plans to
+                    expand my knowledge into DevOps. Always curious, always learning, and excited
+                    to turn ideas into reality.
+                </p>
+            </div>
+
+            <div class="explorelinks">
+                <a href="#skills" class="btn primary">skills</a>
+                <a href="#project" class="btn">projects</a>
+                <a href="#contact" class="btn">contact me</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <h2 class="section_title">about me</h2>
+            <div class="about_grid">
+                <div class="card">
+                    <h3>who am i?</h3>
+                    <p>
+                        I'm a first-year BCA student who loves understanding how software really works.
+                        I believe in getting the fundamentals right first, so I'm building a strong
+                        base in programming, problem solving and computer science.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>what i'm doing now</h3>
+                    <p>
+                        Learning <strong>C Programming</strong> as part of my semester coursework and
+                        taking my first steps in <strong>HTML &amp; CSS</strong>. This very portfolio is
+                        one of my first web projects!
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>where i'm headed</h3>
+                    <p>
+                        React, Next.js, Linux, Docker and DevOps. My goal is to become a well-rounded
+                        developer who can build, deploy and maintain modern applications.
+                    </p>
+                </div>
+            </div>
+
+            <div class="facts">
+                <div class="fact"><span class="fact_num">BCA</span><span class="fact_label">1st year</span></div>
+                <div class="fact"><span class="fact_num">C</span><span class="fact_label">learning now</span></div>
+                <div class="fact"><span class="fact_num">Lucknow</span><span class="fact_label">based in</span></div>
+                <div class="fact"><span class="fact_num">&infin;</span><span class="fact_label">curiosity</span></div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section alt" id="skills">
+            <h2 class="section_title">skills</h2>
+
+            <h3 class="sub_title">learning now</h3>
+            <div class="chips">
+                <span class="chip active">C Programming</span>
+                <span class="chip active">HTML</span>
+                <span class="chip active">CSS</span>
+                <span class="chip active">Problem Solving</span>
+                <span class="chip active">Programming Fundamentals</span>
+            </div>
+
+            <h3 class="sub_title">up next</h3>
+            <div class="chips">
+                <span class="chip">Data Structures &amp; Algorithms</span>
+                <span class="chip">Git &amp; GitHub</span>
+                <span class="chip">React</span>
+                <span class="chip">Next.js</span>
+                <span class="chip">Linux</span>
+                <span class="chip">Docker</span>
+                <span class="chip">Kubernetes</span>
+                <span class="chip">CI/CD &amp; DevOps</span>
+            </div>
+        </section>
+
+        <!-- ROADMAP -->
+        <section class="section" id="roadmap">
+            <h2 class="section_title">my learning roadmap</h2>
+            <ol class="timeline">
+                <li class="done"><span>C Programming</span><small>in progress</small></li>
+                <li><span>Programming Fundamentals</span></li>
+                <li><span>Problem Solving &amp; DSA</span></li>
+                <li><span>React</span></li>
+                <li><span>Next.js</span></li>
+                <li><span>Linux &amp; Git</span></li>
+                <li><span>Docker &amp; DevOps</span></li>
+                <li><span>Building Real-World Projects</span></li>
+            </ol>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section alt" id="project">
+            <h2 class="section_title">projects</h2>
+            <p class="section_note">Every developer starts somewhere. Here are my first steps, with much more on the way.</p>
+
+            <div class="project_grid">
+                <article class="card project">
+                    <span class="tag">HTML &amp; CSS</span>
+                    <h3>portfolio website</h3>
+                    <p>The page you're on right now. My first complete website, built with plain HTML and CSS.</p>
+                </article>
+
+                <article class="card project">
+                    <span class="tag">HTML</span>
+                    <h3>html-first-steps</h3>
+                    <p>My very first experiments with HTML, learning how web pages are structured.</p>
+                    <a href="https://github.com/tulikajoshi007-a11y/html-first-steps" target="_blank" rel="noopener">view on GitHub &rarr;</a>
+                </article>
+
+                <article class="card project">
+                    <span class="tag">C</span>
+                    <h3>hello_world.c</h3>
+                    <p>My first C program, the classic start of every programmer's journey.</p>
+                    <a href="https://github.com/tulikajoshi007-a11y/hello_world.c" target="_blank" rel="noopener">view on GitHub &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- GOALS -->
+        <section class="section" id="goals">
+            <h2 class="section_title">goals</h2>
+            <ul class="goals">
+                <li>Build a strong foundation in computer science</li>
+                <li>Become confident with programming and DSA</li>
+                <li>Learn modern frontend development</li>
+                <li>Understand Linux, containers, CI/CD and DevOps</li>
+                <li>Build and deploy real-world projects</li>
+                <li>Keep improving through hands-on development</li>
+            </ul>
+            <p class="quote">"Learning today, building tomorrow."</p>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section alt" id="contact">
+            <h2 class="section_title">contact me</h2>
+            <p class="section_note">Want to learn, build or chat about tech? Let's connect!</p>
+            <div class="contact_links">
+                <a class="btn primary" href="https://github.com/tulikajoshi007-a11y" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn" href="mailto:tulikajoshi007@gmail.com">Email</a>
+            </div>
+            <p class="location">tulikajoshi007@gmail.com &bull; Lucknow, India</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Code &bull; Build &bull; Break &bull; Fix &bull; Repeat</p>
+        <p class="small">&copy; 2026 Tulika Joshi</p>
+    </footer>
+
+</body>
+</html>
